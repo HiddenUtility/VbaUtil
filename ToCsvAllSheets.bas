@@ -1,6 +1,6 @@
 Attribute VB_Name = "toCsvAllSheets"
 Option Explicit
-Sub main()
+Sub Main()
 
     Dim sheetnames As Variant
     sheetnames = GetAllSheetNames(ThisWorkbook)

@@ -1,4 +1,4 @@
-Attribute VB_Name = "myutil"
+Attribute VB_Name = "wsutil"
 Option Explicit
 
 Private Function GetAllSheetNames(ByVal wb As Workbook) As Variant
@@ -11,3 +11,4 @@ Private Function GetAllSheetNames(ByVal wb As Workbook) As Variant
     Next i
     GetAllSheetNames = sheetnames
 End Function
+
